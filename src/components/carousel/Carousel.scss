@@ -1,0 +1,51 @@
+.carousel__title {
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+
+.slider {
+  width: 100vw;
+  overflow: hidden;
+  display: grid;
+  gap: 80px;
+
+  &__track-a {
+    display: flex;
+    width: calc(24rem * 12);
+    gap: 30px;
+    animation: scrollLeft 40s linear infinite;
+  }
+  &__track-b {
+    display: flex;
+    width: calc(24rem * 12);
+    gap: 30px;
+    animation: scrollRight 40s linear infinite;
+  }
+
+  &__item {
+    min-width: 24rem;
+    
+  }
+}
+
+@keyframes scrollLeft { 
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-24rem * 6))
+  }
+}
+@keyframes scrollRight { 
+  0% {
+    transform: translateX(calc(-24rem * 6));
+    
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
