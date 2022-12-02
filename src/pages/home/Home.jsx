@@ -2,6 +2,7 @@ import React from 'react'
 import { Carousel } from '../../components/carousel/Carousel'
 import { Cta } from '../../components/cta/Cta'
 import { Faq } from '../../components/faq/Faq'
+import { Footer } from '../../components/footer/Footer'
 import { Hero } from '../../components/hero/Hero'
 import { Highlight } from '../../components/highlight/Highlight'
 import { Navbar } from '../../components/navbar/Navbar'
@@ -17,6 +18,7 @@ export const Home = () => {
       <Carousel />
       <Team />
       <Faq />
+      <Footer />
     </>
   )
 }
