@@ -8,7 +8,7 @@ import './Carousel.scss'
 
 export const Carousel = () => {
   return (
-    <section className=' w-full py-24 relative'>
+    <section className=' w-full py-24 relative overflow-hidden'>
       <h2 className='carousel__title font-exo2 font-extrabold text-6xl md:text-[150px] text-center text-white uppercase absolute drop-shadow-xl'>150 models</h2>
       <div className='slider'>
         <div className='slider__track-a'>
