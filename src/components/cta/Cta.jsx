@@ -8,7 +8,7 @@ export const Cta = () => {
         <p className=' w-3/4 mx-auto my-9 leading-6  text-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
 
-        <button className=' py-5 px-12 rounded-3xl bg-deepPurple hover:bg-indigo-800 font-exo2 font-bold text-3xl uppercase'>get yours</button>
+        <button className='transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-125 duration-300 py-5 px-12 rounded-3xl bg-deepPurple hover:bg-indigo-800 font-exo2 font-bold text-3xl uppercase'>get yours</button>
       </div>
     </section>
   )
