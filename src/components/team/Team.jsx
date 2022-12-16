@@ -1,5 +1,5 @@
 import nft1 from '../../assets/nft1.jpeg';
-import { TeamCard } from '../teamCard/teamCard';
+import { TeamCard } from '../teamCard/TeamCard';
 
 export const Team = () => {
   return (
