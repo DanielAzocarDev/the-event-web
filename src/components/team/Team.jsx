@@ -1,8 +1,4 @@
 import nft1 from '../../assets/nft1.jpeg';
-import nft2 from '../../assets/nft2.jpeg';
-import nft3 from '../../assets/nft3.jpeg';
-import nft4 from '../../assets/nft4.jpeg';
-import nft5 from '../../assets/nft5.jpeg';
 import { TeamCard } from '../teamCard/teamCard';
 
 export const Team = () => {
